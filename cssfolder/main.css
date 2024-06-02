@@ -1,0 +1,10 @@
+body {
+    font-family: 'whitney-2', 'Catallina';
+    font-weight: normal;
+    background-image: url(../image/background/bg.jpg);
+    overflow-y: auto;
+  }
+  
+  .logo{
+    float: right;
+  }

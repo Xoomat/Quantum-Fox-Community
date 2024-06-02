@@ -1,0 +1,44 @@
+
+
+.gameblock {
+  position: relative;
+  top: 30px;
+  left: 10px;
+  width: 240px;
+  height: 400px;
+  overflow: hidden;
+  float: left;
+  margin-right: 20px;
+  }
+  
+  .gameblock img {
+  animation: curunhover 2s, opacity-animin 2s;
+  width: 240px;
+  height: 400px; 
+  object-fit: cover;
+  opacity: 0.7;
+  filter: blur(5px)
+  }
+
+  .gameblock :hover {
+    animation: curhover 2s, opacity-animout 2s;
+    opacity: 1;
+    filter: none;
+  }
+
+  @keyframes curhover {
+    0%  {filter: blur(5px);}
+    100%{filter: none;}
+  }
+  @keyframes curunhover {
+    0%{filter: none;}
+    100%{filter: blur(5px);}
+  }
+  @keyframes opacity-animin {
+    0%{opacity: 1;}
+    100%{opacity: 0.7;}
+  }
+  @keyframes opacity-animout {
+    0%{opacity: 0.7;}
+    100%{opacity: 1;}
+  }

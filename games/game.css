@@ -1,0 +1,41 @@
+body {
+    font-family: 'whitney-2', 'Catallina';
+    font-weight: normal;
+    background-image: url(../image/background/bg.jpg);
+    overflow-y: auto;
+  }
+
+.logo {
+    float: right;
+  }
+
+
+.whiteblock {
+  position: relative;
+  top: 8px;
+  left: 27px;
+  height: 1000px;
+  width: 1400px;
+  background: #F0F0F0;
+  overflow: hidden;
+}
+
+.gamepics {
+    position: relative;
+    top: 400px;
+    left: 260px;
+    overflow: hidden;
+}
+.gamepics img {
+    margin-right: 20px;
+    overflow: hidden;
+    float: left;
+}
+
+.mainpic{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    overflow: hidden;
+    border-radius: 10%;
+}
