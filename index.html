@@ -6,28 +6,94 @@
     <title>Главная</title>
     <link rel="icon" href="image/icon/corona-ebat.png"/>
     <link rel="stylesheet" href="cssfolder/main.css">
-    <link rel="stylesheet" href="cssfolder/main.css">
+	 <link rel="stylesheet" href="cssfolder/index.css">
+	 <script defer src="js/gamburger-mobile.js"></script>
 </head>
-<header>
-    <div class="logo">
-        <img src="image/logo.png" alt="Quantum Fox">
-    </div>
-    <nav>
-        <ul>
-            <li><a href="index.html"class="active">Главная</a></li>
-            <li><a href="games.html">Игры</a></li>
-            <li><a href="launcher.html">Лаунчер</a></li>
-            <li><a href="account.html">Аккаунт</a></li>
-        </ul>
-    </nav>
-  </header>
 <body>
-        <h1>САЙТ НАХОДИТСЯ В РАЗРАБОТКЕ!</h1>
-        <h3>СКОРО ОТКРЫТИЕ</h3>
+    <header>
+        <div class="logo">
+            <img src="image/logo.png" alt="Quantum Fox">
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="games-not.html">Игры</a></li>
+                <li><a href="launcher.html">Лаунчер</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <div class="account-menu">
+                <ul class="nav-menu">
+                    <li>
+                        <a href="accounts.html">
+                            <img src="image/icon/corona-ebat.png" class="account-icon">
+                            <span>Аккаунт</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+  <main>
+    <main>
+        <section class="news-section">
+            <div class="news-block">
+                <div class="image-container">
+                    <img src="image/news/status.jpg" alt="Изображение новости">
+                </div>
+                <div class="text-container">
+                    <h3>Обновление сайта: Новый дизайн, новые возможности, сайт открыт!</h3>
+                    <div class="news-content">
+                        <p>
+                            Хочу представить вам обновление сайта, на сайте теперь работает главная страница, в будущем обещаю чуть больше обновлений, в данный момент времени просто не хватает.
+                        </p>
+                    </div>
+                    <p class="author">Опубликовано: Энтони Деворски</p>
+                </div>
+            </div>
+        </section>
+
+        <aside class="launcher-block">
+            <div class="launcher-content">
+                <div class="launcher-image-container">
+                    <img src="image/block/launcher.jpg" alt="Изображение лаунчера" class="launcher-image">
+                </div>
+                <div class="launcher-text">
+                    <h3>Стань первым</h3>
+                    <p>Скачайте лаунчер для эксклюзивного контента и возможностей!</p>
+                </div>
+                <a href="launcher.html" class="download-button">Предварительная регистрация</a>
+            </div>
+        </aside>
+
+        <!--
+        <section class="games-section">
+            <h2>Популярная игра</h2>
+            <div class="popular-game-block">
+                <div class="game-info">
+                    <img src="image/block/test.png" alt="Популярная игра" class="popular-game-image">
+                    <p>Испытайте невероятные приключения в нашей самой популярной игре!</p>
+                    <a href="popular-game-page.html" class="game-link">Узнать больше</a>
+                </div>
+                <div class="all-games-link">
+                    <a href="games.html">Посмотреть все наши игры</a>
+                </div>
+            </div>
+        </section>
+        -->
+    </main>
+</main>
+    <footer>
+        <div class="social-media-links">
+            <p>&copy; 2024 Quantum Fox</p>
+            <a href="https://t.me/quantum_fox_community" target="_blank">
+                <img src="image/icon/telegram.png" alt="Telegram" class="social-icon">
+            </a>
+            <a href="https://discord.com" target="_blank">
+                <img src="image/icon/discord.png" alt="Discord" class="social-icon">
+            </a>
+            <!-- Добавьте больше ссылок по мере необходимости -->
+        </div>
+    </footer>
 </body>
-<footer>
-    <nav>
-      <p>&copy; 2024 Quantum Fox</p>
-    </nav>
-  </footer>
 </html>

@@ -1,18 +1,20 @@
 h1 {
-    font-size: 100px;
-    text-align: center;
-    color: white;
- }
- 
- h3 {
-    font-size: 50px;
-    text-align: center;
-    color: white;
- }
+  font-size: 100px;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  position: relative;
+  bottom: 55px;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
 
 .login-box {
-    position: absolute;
-    top: 70%;
+    position: relative;
+    top: 120px;
     left: 50%;
     width: 400px;
     padding: 40px;

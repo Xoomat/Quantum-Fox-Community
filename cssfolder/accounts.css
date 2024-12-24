@@ -1,0 +1,51 @@
+h2 {
+    font-size: 150px;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.account-menu {
+    position: relative;
+}
+
+.account-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.account-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.slide-menu {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #444;
+    color: #fff;
+    padding-top: 60px;
+    transition: right 0.3s;
+    z-index: 1000;
+}
+
+.slide-menu a {
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.slide-menu a:hover {
+    background-color: #555;
+}

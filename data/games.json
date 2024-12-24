@@ -1,0 +1,16 @@
+[
+    {
+        "id": "game1",
+        "name": "Игра 1",
+        "description": "Краткая информация об игре 1.",
+        "page": "game1.html",
+        "image": "image/block/test.png"
+    },
+    {
+        "id": "game2",
+        "name": "Игра 2",
+        "description": "Краткая информация об игре 2.",
+        "page": "game2.html",
+        "image": "path/to/screenshot2.jpg"
+    }
+]

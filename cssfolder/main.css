@@ -1,6 +1,12 @@
 body {
-    font-family: 'whitney-2', 'Hitmarker Text';
-    font-weight: normal;
+    font-family: 'whitney-2', 'Geometria Light';
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-image: url(../image/background/bg2.jpg);
   }
 
@@ -8,8 +14,8 @@ body {
     display: none;
   }
 
-header {
-    font-family: 'whitney-2', 'Hitmarker Normal';
+  header {
+    font-family: 'whitney-2', 'Video';
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,4 +51,76 @@ nav ul li a.active {
 
 nav ul li a:hover {
     color: #ddd;
+}
+
+.account-menu {
+    position: relative;
+}
+
+.account-button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    padding: 0;
+}
+
+.account-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+/* Медиазапросы для мобильных устройств */
+@media (max-width: 768px) {
+    nav ul {
+        display: none; /* Скрываем стандартное меню */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background-color: #333;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .burger-menu {
+        display: flex; /* Показываем бургер-меню */
+    }
+}
+
+p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+.footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
 }
